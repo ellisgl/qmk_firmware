@@ -32,4 +32,3 @@
     {R40  , R41  , R42  , R43  , R44  , R45  , KC_NO, R47  },\
     {KC_NO, R51  , KC_NO, KC_NO, R54  , KC_NO, R56  , R57  }\
 }
-
