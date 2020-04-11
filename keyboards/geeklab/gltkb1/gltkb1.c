@@ -11,14 +11,6 @@ void matrix_init_kb(void) {
     DDRD |= (1 << 3);
     PORTD &= ~(1 << 3);
 }
-/*
-void matrix_scan_kb(void) {
-	// put your looping keyboard code here
-	// runs every cycle (a lot)
-
-	matrix_scan_user();
-}
-*/
 
 void led_set_kb(uint8_t usb_led) {
     // put your keyboard LED indicator (ex: Caps Lock LED) toggling code here
