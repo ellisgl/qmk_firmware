@@ -11,7 +11,7 @@
 #define DESCRIPTION     60% split keyboard
 
 /* key matrix size */
-#define MATRIX_ROWS 6 
+#define MATRIX_ROWS 12
 #define MATRIX_COLS 8
 
 /*
@@ -24,7 +24,7 @@
  *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
  *
 */
-// This is the left side, _B2 and _B6 are not used.
+// This is the left side, B2 and B6 are not used.
 #define MATRIX_ROW_PINS { D4, C6, D7, E6, B4, B5 }
 #define MATRIX_COL_PINS { F4, F5, F6, F7, B1, B3, B2, B6 }
 

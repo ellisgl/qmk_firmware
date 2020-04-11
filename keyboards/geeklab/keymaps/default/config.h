@@ -1,3 +1,5 @@
 #pragma once
+
 #define USE_I2C
-#define I2C_MASTER_LEFT
+#define MASTER_LEFT
+#define EE_HANDS
